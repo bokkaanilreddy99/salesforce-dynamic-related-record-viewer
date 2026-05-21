@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets='lightning__RecordPage'>
+            <property name='childObjectApiName' type = 'string' description='The related object that you want to query.'/>
+            <property name='fieldsList' type = 'string' description='The list of fields (comma separated) that you want to query.'/>
+            <property name='lookupFieldApiName' type = 'string' description='The parent object Api name(example: accountId) that you want to query.'/>
+            <property name='limitSize' type = 'integer' description='The number of record you want to show.'/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
