@@ -1,6 +1,5 @@
-# related-record-viewer
-
 # Salesforce Related Record Viewer
+
 
 A reusable Lightning Web Component (LWC) that dynamically displays related records using Apex.
 
